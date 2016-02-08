@@ -1,3 +1,8 @@
+/* Flattervogel Bitmap
+ * 
+ * (C) by Marcel Bucher 2016, MIT LICENCSE
+ */
+
 #ifndef XCT_LOGO_H
 #define XCT_LOGO_H
 

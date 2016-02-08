@@ -1,9 +1,10 @@
 /* Class used to parse an NMEA sentence into _fields
-* 
-* Allows access to the fields as strings or numbers.
-* First field considered to be the sentence name
-* 
-*/
+ * 
+ * Allows access to the fields as strings or numbers.
+ * First field considered to be the sentence name
+ * 
+ * (C) by Marcel Bucher 2016, MIT LICENCSE
+ */
 #ifndef NMEA_SENTENCE_H
 #define NMEA_SENTENCE_H
 //////////////////

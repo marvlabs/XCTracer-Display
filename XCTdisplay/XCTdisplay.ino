@@ -7,6 +7,8 @@ and Display the values on an LCD.
 Connect BLE Module HM-10 via serial port.
 Connect Nokia 3110/5110 via SPI
 
+(C) by Marcel Bucher 2016, MIT LICENCSE
+
 *********************************************************************/
 #include <SPI.h>
 #include <Adafruit_GFX.h>

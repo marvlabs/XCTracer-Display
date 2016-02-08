@@ -1,3 +1,7 @@
+/* Draw the XCTracer values on the LCD
+ * 
+ * (C) by Marcel Bucher 2016, MIT LICENCSE
+ */
 ///////////////////
 // LCD Nokia 3110, 5110
 #include <SPI.h>
