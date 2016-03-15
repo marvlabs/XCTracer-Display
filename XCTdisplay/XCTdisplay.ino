@@ -30,7 +30,7 @@ Connect Nokia 3110/5110 via SPI
 #define BUTTON_LONG_PRESS 800
 #define BUTTON_MIN_PRESS 10
 
-
+#define KNOTS_TO_KMH 1.852
 
 ///////////////////
 // Defines for testing and debugging
@@ -162,7 +162,7 @@ void loop() {
             HeightGps = nmea.fieldFloat(9);
         }
         else if (type.equals(GPRMC)) {
-            Speed = nmea.fieldFloat(7);
+            Speed = nmea.fieldFloat(7) * KNOTS_TO_KMH; // Value in nautical knots kn!
         }
     }
     

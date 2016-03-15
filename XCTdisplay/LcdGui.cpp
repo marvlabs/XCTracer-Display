@@ -133,7 +133,13 @@ void DrawGui(int Vario, byte Speed, int HeightGps, int HeightBaro, byte Satellit
   Lcd.setTextColor(WHITE, BLACK);
 
   Lcd.setCursor(POS_SAT);
-  Lcd.print(Satellites);
+  if (Satellites < 10) {
+    Lcd.print(Satellites);
+  }
+  else {
+    // Many many Satellites visible, but only use one character on display
+    Lcd.print('%');
+  }
   Lcd.print(Recording);
   
   /////////////////////////////  
